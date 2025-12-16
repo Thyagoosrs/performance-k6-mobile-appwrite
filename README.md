@@ -101,19 +101,6 @@ k6 run -e TEST_TYPE=spike src/tests/performance_mobile.js
 k6 run -e TEST_TYPE=smoke src/tests/performance_mobile.js
 ```
 
-### Tipos de Teste
-
-| Tipo | Objetivo | Duração |
-|------|----------|---------|
-| 🔵 `load` | Carga normal esperada | ~3.5 min |
-| 🔴 `stress` | Encontrar ponto de ruptura | ~5 min |
-| 🟡 `endurance` | Estabilidade prolongada | ~15 min |
-| ⚡ `spike` | Picos súbitos de tráfego | ~4 min |
-| 📈 `breakpoint` | Limite máximo | ~6 min |
-| 🟢 `smoke` | Verificação rápida | ~1 min |
-
----
-
 ## 📊 Relatórios Gerados
 
 | Arquivo | Descrição |
