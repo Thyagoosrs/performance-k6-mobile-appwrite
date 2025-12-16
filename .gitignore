@@ -1,0 +1,45 @@
+# ============================================
+# K6 Performance Test - .gitignore
+# ============================================
+
+# Relatórios gerados (podem ser muito grandes)
+reports/*.html
+reports/*.json
+!reports/.gitkeep
+
+# Arquivos de dados de teste temporários
+data/*.tmp
+data/*.log
+
+# Dependências de sistema
+node_modules/
+.npm/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Variáveis de ambiente (contém chaves secretas)
+.env
+.env.local
+.env.*.local
+
+# Arquivos temporários do k6
+__browserstart/
+
